@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./subject.component.scss']
 })
 export class SubjectComponent implements OnInit {
-
+  code: number
+  subject: string
+  teacher: string
+  schedule: string
   constructor() { }
 
   ngOnInit(): void {
